@@ -5,8 +5,8 @@
 
 Summary:	%{_pearname} - GNU Gettext file parser
 Name:		php-pear-%{_pearname}
-Version:	0.3.4
-Release:	%mkrel 2
+Version:	0.4.0
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -76,5 +76,3 @@ rm -rf %{buildroot}
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/%{_class}/%{_subclass}
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
