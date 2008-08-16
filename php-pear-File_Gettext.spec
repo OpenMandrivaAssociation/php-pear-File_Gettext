@@ -5,18 +5,18 @@
 
 Summary:	%{_pearname} - GNU Gettext file parser
 Name:		php-pear-%{_pearname}
-Version:	0.4.0
-Release:	%mkrel 3
+Version:	0.4.1
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/File_Gettext/
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Reader and writer for GNU PO and MO files.
