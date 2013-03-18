@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.4.1
-Release:	12
+Version:	0.4.2
+Release:	1
 Summary:	GNU Gettext file parser
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/File_Gettext/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/File_Gettext-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -121,4 +121,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.3.3-1mdk
 - initial Mandriva package (PLD import)
+
 
