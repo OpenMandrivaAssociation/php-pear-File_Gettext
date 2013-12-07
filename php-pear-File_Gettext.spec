@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{modname}
 Version:	0.4.2
-Release:	4
+Release:	5
 Summary:	GNU Gettext file parser
 License:	PHP License
 Group:		Development/PHP
