@@ -8,7 +8,7 @@ Release:	11
 Summary:	GNU Gettext file parser
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/File_Gettext/
+Url:		https://pear.php.net/package/File_Gettext/
 Source0:	http://download.pear.php.net/package/File_Gettext-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
